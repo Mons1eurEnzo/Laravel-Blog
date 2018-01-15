@@ -25,11 +25,11 @@
         {{ csrf_field() }}
         <h2 class="form-signin-heading">Пройдите регистрацию</h2>
         <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" class="form-control" name="auth_data_email" placeholder="Email" required autofocus>
+        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email" required autofocus>
         <label for="inputPassword" class="sr-only">Пароль</label>
-        <input type="password" id="inputPassword" class="form-control" name="auth_data_password" placeholder="Пароль" required>
+        <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Пароль" required>
         <label for="inputPassword_confirm" class="sr-only">Повторите пароль</label>
-        <input type="password" id="inputPassword_confirm" class="form-control" name="auth_data_password_confirm" placeholder="Повторите Пароль" required>
+        <input type="password" id="inputPassword_confirm" class="form-control" name="password_confirmation" placeholder="Повторите Пароль" required>
         <div class="checkbox">
             <label>
                 <input type="checkbox" name="remember" value="1"> Запомнить меня
